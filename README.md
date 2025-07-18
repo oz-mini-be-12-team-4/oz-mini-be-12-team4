@@ -1,4 +1,4 @@
-'''
+```
 # oz-mini-be-12-team4
 
 oz_form/                        # 프로젝트 폴더
@@ -23,4 +23,4 @@ oz_form/                        # 프로젝트 폴더
 ├── run.py(제공)                 # 개발환경에서 테스트 하는 실행 파일
 ├── wsgi.py(제공)                # 배포환경에서의 실행 파일
 └── migrations/(자동 생성)        # Flask-Migrate를 위한 DB 마이그레이션 파일
-'''
+```
