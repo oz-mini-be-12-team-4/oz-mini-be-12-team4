@@ -3,7 +3,7 @@ from flask import request, Blueprint, jsonify
 from app.models import Question, Image, Choices
 from config import db
 
-questions_blp = Blueprint("questions", __name__, description='Operations on answers')
+questions_blp = Blueprint("questions", __name__)
 
 
 @questions_blp.route("/question", methods=["POST"])

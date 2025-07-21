@@ -3,7 +3,7 @@ from flask import request, jsonify, Blueprint
 from app.models import Choices
 from config import db
 
-choices_blp = Blueprint("choices", __name__, url_prefix='/choice', description='Operations on choices')
+choices_blp = Blueprint("choices", __name__, url_prefix='/choice')
 
 
 @choices_blp.route("/", methods=["POST"])
